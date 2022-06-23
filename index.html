@@ -2,16 +2,47 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="2022-05-09_스터디_과제1.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <script>
+        let audio = new Audio()
+        audio.src = 'SOLE - slow.mp3'
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gamja+Flower&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>사진</h1>
+    <h1 id="pic">사진</h1>
     <hr>
     <ul>
         <li><a href="#landscape">풍경</a></li>
-        <li><a href="plant">식물</a></li>
-        <li><a href="puppy">강아지</a></li>
-        <li><a href="kitten">고양이</a></li>
+        <li><a href="#plant">식물</a></li>
+        <li><a href="#puppy">강아지</a></li>
+        <li><a href="#kitten">고양이</a></li>
     </ul>
+    <h3 id="landscape">풍경</h3>
+    <div id="land">
+        <img src="img/풍경1.jpg" onclick="audio.play()" onmouseout="audio.pause()" width="250px" height="250px">
+        <img src="img/풍경2.jpg" onclick="audio.play()" onmouseout="audio.pause()" width="250px" height="250px">
+        <img src="img/풍경3.jpg" onclick="audio.play()" onmouseout="audio.pause()" width="250px" height="250px">
+    </div>
+    <h3 id="plant">식물</h3>
+    <div id="pla">
+        <img src="img/식물1.jpg" onclick="audio.play()" onmouseout="audio.pause()" width="250px" height="250px">
+        <img src="img/식물2.jpg" onclick="audio.play()" onmouseout="audio.pause()" width="250px" height="250px">
+        <img src="img/식물3.jpg" onclick="audio.play()" onmouseout="audio.pause()" width="250px" height="250px">
+    </div>
+    <h3 id="puppy">강아지</h3>
+    <div id="pup">
+        <img src="img/강아지1.jpg" onclick="audio.play()" onmouseout="audio.pause()" width="250px" height="250px">
+        <img src="img/강아지2.jpg" onclick="audio.play()" onmouseout="audio.pause()" width="250px" height="250px">
+        <img src="img/강아지3.jpg" onclick="audio.play()" onmouseout="audio.pause()" width="250px" height="250px">
+    </div>
+    <h3 id="kitten">고양이</h3>
+    <div id="kit">
+        <img src="img/고양이1.jpg" onclick="audio.play()" onmouseout="audio.pause()" width="250px" height="250px">
+        <img src="img/고양이2.jpg" onclick="audio.play()" onmouseout="audio.pause()" width="250px" height="250px">
+        <img src="img/고양이3.jpg" onclick="audio.play()" onmouseout="audio.pause()" width="250px" height="250px">
+    </div>
 </body>
 </html>
