@@ -1,0 +1,88 @@
+@import url(//fonts.googleapis.com/earlyaccess/jejugothic.css);
+
+*{
+    font-family: 'Gamja Flower', cursive;
+}
+
+#pic{
+    text-align: center;
+    font-size: 100px;
+    margin: 0;
+}
+
+ul{
+    font-size: 50px;
+    color: greenyellow;
+    text-align: center;
+    list-style-type: none;
+}
+
+#dif{
+    font-size: 30px;
+    padding-left: 0px;
+    padding-right: 40px;
+}
+
+a{
+    text-decoration: none;
+    color: yellowgreen;
+}
+
+h3{
+    font-size: 100px;
+    text-align: center;
+    margin: 30px;
+}
+
+hr{
+    height: 3px;
+    background-color: grey;
+}
+
+#land{
+    text-align: center;
+    padding: 50px;
+}
+
+#pla{
+    text-align: center;
+    padding: 50px;
+}
+
+#pup{
+    text-align: center;
+    padding: 50px;
+}
+
+#kit{
+    text-align: center;
+    padding: 50px;
+}
+
+#landscape, #plant, #puppy, #kitten{
+    text-align: center;
+    margin-left: auto;
+    margin-right: 0px;
+}
+
+#na{
+    font-size: 30px;
+    margin-left: auto;
+}
+
+input{
+    text-align: center;
+    width: auto;
+    height: auto;
+    font-size: 30px;
+    color: aquamarine;
+}
+
+#box{
+    text-align: right;
+    margin-right: 70px;
+}
+
+header{
+    display: flex;
+}
